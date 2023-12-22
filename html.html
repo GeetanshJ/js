@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var a = 10;
+        
+        {
+            let a = 4;
+            
+            // console.log(a);
+        }
+
+        // console.log("7"+"20"); 
+        // var x  = undefined;
+        // var y = null;
+        // var z;
+        // console.log(x + " " + y + " " + z)  =>  undefined null undefined
+
+
+
+        // console.log(typeof(NaN))  =>  number
+        // console.log(typeof(undefined))  =>  undefined
+        // console.log(typeof(null))  =>  object
+
+
+
+        
+        // console.log(NaN == NaN)  =>  false
+        // console.log(NaN === NaN)  =>  false
+
+        // console.log(Number.NaN == NaN)  =>  false
+        // console.log(Number.NaN === NaN)  =>  false
+
+        // console.log(isNaN(NaN))  =>  true
+        // console.log(isNaN(Number.NaN))  =>  true
+
+        // console.log(Number.isNaN(NaN))  =>  true
+
+
+
+
+        
+        
+        // TYPE COERCION => when an inbuilt function convert from one data type to other eg as isNaN does 
+
+        // Number.isNaN(NaN);  =>  Returns true
+        // Number.isNaN(10); =>  Returns false
+        // Number.isNaN("Hello"); =>  Returns false
+
+        // isNaN(NaN); =>  Returns true
+        // isNaN(10); =>  Returns false
+        // isNaN("Hello"); =>  Returns true (as it tries to convert "Hello" to a number, which fails)
+
+
+
+    </script>
+</body>
+</html>
